@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: #09342F;
+}
+
+/* Navbar */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(13, 36, 36);
+    color: rgb(184, 184, 184);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.navbar ul {
+    list-style-type: none;
+    font-family: 'Heebo', sans-serif;
+    width: 75%;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.navbar p {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 200;
+}
+
+.navbar li {
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 0.5em 1em;
+    transition: 0.6s;
+}
+
+.navbar li:hover {
+    background-color: grey;
+    color: white;
+}
+
+.navbar a, .navbar a:visited, .navbar a:active {
+    color: inherit;
+}
+
+.logo {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+/* Flex Row and Column */
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main */
+
+main {
+    font-family: 'Heebo', sans-serif;
+    justify-content: center;
+    color: rgb(184, 184, 184);
+    width: 100%;
+    padding: 12em 0em 2em 0em;
+}
+
+main .email {
+    font-weight: 600;
+    padding: 1em;
+    width: fit-content;
+    text-align: center;
+    align-self: center;
+    border-style: solid;
+    border-radius: 1em;
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.email:hover {
+    background-color: rgb(39, 104, 104);
+}
+
+.email, .email:visited, .email:active {
+    color: inherit;
+}
+
+
+main div {
+    background: rgb(13, 36, 36);
+    width: 75%;
+}
+main ul {
+    padding: 1em 2em;
+}
+
+main .text-title {
+    font-size: 75px;
+    font-weight: 700;
+    padding: 0.5em 1em;
+}
+
+main .text-content {
+    font-size: 20px;
+    font-weight: 400;
+    align-self: center;
+    width: 75%;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    left: 0;
+    bottom: 0;
+    color: rgb(184, 184, 184);
+    background-color: #1B4B4B;
+}
+
+footer ul {
+    list-style-type: none;
+    font-family: 'Heebo', sans-serif;
+    width: 75%;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+footer .github-link img {
+    height: 2em;
+}
+
+footer .linkedin-link img {
+    height: 1.5em;
+}
+
+footer a:visited, footer a:active {
+    color: inherit;
+}
+
+/* Project Images */
+
+.project-imgs {
+    width: auto;
+    flex-wrap: wrap;
+}
+
+.project-imgs a {
+    padding: 0.5em;
+    width: 30%;
+}
+
+.project-imgs img {
+    width: 100%;
+}
+
+
+
